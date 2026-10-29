@@ -62,7 +62,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .hero-art{position:relative}
 .hero-art .photo{border-radius:28px;box-shadow:0 30px 60px rgba(16,54,94,.3);border:6px solid #fff;transform:rotate(1.5deg)}
 .hero-art .game{position:absolute;width:62%;left:-10%;bottom:-14%;border-radius:16px;border:5px solid #fff;box-shadow:0 20px 40px rgba(16,54,94,.35);transform:rotate(-4deg)}
-.waves{position:absolute;left:0;right:0;bottom:-2px;height:120px}
+.waves{position:absolute;left:0;right:0;width:100%;bottom:-2px;height:120px}
 @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero{min-height:auto}.hero-art{margin:10px 10px 60px}}
 /* cards */
 .grid{display:grid;gap:24px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g5{grid-template-columns:repeat(5,1fr)}
@@ -112,6 +112,7 @@ footer a{color:#ffd257}
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
 .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.layer{transform:none!important}}
+.split>*,.grid>*,.hero-grid>*{min-width:0}.qrcard span{overflow-wrap:anywhere}body{overflow-x:hidden}
 </style>
 </head>
 <body>
