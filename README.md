@@ -4,6 +4,8 @@
 
 **⬇ Windows download (with Big Screen mirroring + add-your-class-art tools):** https://github.com/williammorgansgrokbot/church-noah/releases/latest
 
+<sub>ℹ️ [About this program](https://williammorgansgrokbot.github.io/church-noah/about/) (overview for church leaders)</sub>
+
 ## Teacher notes
 - Open the Play link on an iPad and tap **📱 Tap to enable TILT** during the flood and dove levels (or just use a finger).
 - The web version runs entirely in the browser; nothing to install. Live mirroring to a projector needs the Windows app (see `START HERE.pdf` in the release).
