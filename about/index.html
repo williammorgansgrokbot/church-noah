@@ -113,12 +113,21 @@ footer a{color:#ffd257}
 .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.layer{transform:none!important}}
 .split>*,.grid>*,.hero-grid>*{min-width:0}.qrcard span{overflow-wrap:anywhere}body{overflow-x:hidden}
+/* coming soon */
+.soon{padding:0;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.soon:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(29,42,58,.18)}
+.soon .simg{position:relative;overflow:hidden;border-bottom:4px solid var(--gold)}
+.soon .simg img{width:100%;aspect-ratio:16/10;object-fit:cover;filter:saturate(.9)}
+.soon .ribbon{position:absolute;left:0;right:0;bottom:0;padding:9px 10px;text-align:center;font-family:Fredoka;font-weight:700;letter-spacing:.18em;font-size:.95rem;color:#3b2600;background:linear-gradient(180deg,#ffd257,#f2b632);border-top:3px solid #8a5a32;box-shadow:0 -6px 16px rgba(0,0,0,.25);text-shadow:0 1px 0 rgba(255,255,255,.5)}
+.soon .ribbon::before,.soon .ribbon::after{content:"★";margin:0 10px;color:#8a5a32}
+.soon .sbody{padding:20px 22px 24px}
+.soon .ref{display:inline-block;font-weight:800;font-size:.78rem;color:var(--wood);background:#fbe7c6;padding:3px 10px;border-radius:99px;margin-bottom:8px}
 </style>
 </head>
 <body>
 <nav id="nav"><div class="wrap">
  <a class="brand" href="#top"><img src="../icon.png" alt="">Noah's Big Boat</a>
- <div class="links"><a href="#idea">The idea</a><a href="#how">How it works</a><a href="#game">The game</a><a href="#safety">Safety</a><a href="#downloads">Downloads</a><a class="btn btn-gold sm" href="../">▶ Play</a></div>
+ <div class="links"><a href="#idea">The idea</a><a href="#how">How it works</a><a href="#game">The game</a><a href="#safety">Safety</a><a href="#downloads">Downloads</a><a href="#more">More games</a><a class="btn btn-gold sm" href="../">▶ Play</a></div>
 </div></nav>
 
 <header class="hero" id="top">
@@ -236,6 +245,16 @@ footer a{color:#ffd257}
   <a class="card dl reveal" href="https://github.com/williammorgansgrokbot/church-noah/releases/download/v1.0/Coloring_pages.pdf"><div class="ic" style="background:#e5f7e6">🖍️</div><h3>Coloring pages (PDF)</h3><p>Print these for the kids to color.</p><span class="go">Download →</span></a>
   <a class="card dl reveal" href="https://github.com/williammorgansgrokbot/church-noah/releases/download/v1.0/Make_your_GitHub_key.pdf"><div class="ic" style="background:#efe7ff">🔑</div><h3>GitHub key guide (PDF)</h3><p>One-time setup to put the class's game on the web.</p><span class="go">Download →</span></a>
   <div class="card reveal" style="display:flex;gap:18px;align-items:center"><img src="assets/qr_play.png" alt="QR code to play" width="130" height="130" style="image-rendering:pixelated;border-radius:10px"><div><h3>Scan to play</h3><p>Point an iPad or phone camera here.</p></div></div>
+ </div>
+</div></section>
+
+<section id="more" class="bg-sky"><div class="wrap">
+ <div class="reveal" style="text-align:center"><span class="eyebrow">More Bible games</span><h2>More Bible Games: Coming Soon</h2><p class="lead" style="margin:0 auto 40px">More gentle Bible-story adventures are on the way for our class.</p></div>
+ <div class="grid g4">
+  <div class="card soon reveal"><div class="simg"><img src="assets/coming/david-and-the-giant.webp" alt="David &amp; the Giant title screen" width="960" height="600" loading="lazy"><div class="ribbon">COMING SOON</div></div><div class="sbody"><span class="ref">1 Samuel 17</span><h3>David &amp; the Giant</h3><p>Young David trusts God, not armor, to face the giant Goliath with just a sling and a stone.</p></div></div>
+  <div class="card soon reveal"><div class="simg"><img src="assets/coming/genesis-beginning.webp" alt="Genesis: In the Beginning title screen" width="960" height="600" loading="lazy"><div class="ribbon">COMING SOON</div></div><div class="sbody"><span class="ref">Genesis 1</span><h3>Genesis: In the Beginning</h3><p>Discover how God made light, sky, land, and every living creature — and called it good.</p></div></div>
+  <div class="card soon reveal"><div class="simg"><img src="assets/coming/jonah-game.webp" alt="Jonah's Journey title screen" width="960" height="600" loading="lazy"><div class="ribbon">COMING SOON</div></div><div class="sbody"><span class="ref">Book of Jonah</span><h3>Jonah's Journey</h3><p>Jonah runs, sails, prays inside the great fish, and finally preaches God's mercy to Nineveh.</p></div></div>
+  <div class="card soon reveal"><div class="simg"><img src="assets/coming/joseph-big-dream.webp" alt="Joseph's Big Dream title screen" width="960" height="600" loading="lazy"><div class="ribbon">COMING SOON</div></div><div class="sbody"><span class="ref">Genesis 37–45</span><h3>Joseph's Big Dream</h3><p>From his colorful coat to Pharaoh's palace, Joseph trusts God and shares food to save his family.</p></div></div>
  </div>
 </div></section>
 
