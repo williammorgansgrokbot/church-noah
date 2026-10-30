@@ -11,3 +11,8 @@
 - The web version runs entirely in the browser; nothing to install. Live mirroring to a projector needs the Windows app (see `START HERE.pdf` in the release).
 - Print *Coloring pages (print me).pdf* from the release for the kids to draw animals.
 - **Note:** the class art currently in the game is placeholder test art; replace it with your class's drawings using the Windows app.
+
+## Scripture
+Bible verses in the game are from the New International Reader's Version (NIrV).
+
+<sub>Scripture quotations taken from The Holy Bible, New International Reader's Version®, NIrV® Copyright © 1995, 1996, 1998, 2014 by Biblica, Inc.® Used by permission. All rights reserved worldwide.</sub>
